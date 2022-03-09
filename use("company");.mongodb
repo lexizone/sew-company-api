@@ -1,0 +1,6 @@
+use("company");
+db.products.find({
+  price: {
+    $gt: 10000
+  }
+});

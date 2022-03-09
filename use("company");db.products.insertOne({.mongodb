@@ -1,0 +1,8 @@
+use("company");db.products.insertOne({ 
+   name: 'Huawei P50',  price: 30000})
+
+db.products.insertMany([
+  {name:"Ikea Lamp", price: 900},
+  {name:"Chair", price: 500},
+  {name:"iPhone", price: 40000}
+])

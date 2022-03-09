@@ -1,0 +1,2 @@
+use('company');
+db.createCollection('products');
